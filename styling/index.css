@@ -12,6 +12,18 @@ body {
   color: #ddd;
 }
 
+h3 {
+  margin-bottom: 50px;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
 .navbar ul {
   list-style: none;
   border: 1.5px solid black;
@@ -49,6 +61,25 @@ body {
   font-size: 80px;
   font-family: "headerFont";
   margin-top: 50px;
+}
+
+/* Contact Page */
+
+#contact-list {
+  list-style: none;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+#contact-list li {
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#contact-list a {
+  text-decoration: none;
+  color: #ddd;
 }
 
 /* footer */
