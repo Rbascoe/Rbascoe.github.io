@@ -1,0 +1,132 @@
+/* Imported Fonts */
+
+/* @font-face {
+    font-family: "headerFont";
+    src: url("../fonts/Peddana-Regular.ttf") format("truetype");
+  } */
+
+/* navbar styling */
+
+body {
+  background-color: black;
+}
+
+.navbar ul {
+  list-style: none;
+  /* background-color: rgb(46, 182, 228); */
+  border: 1.5px solid black;
+  border-radius: 24px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+.navbar li {
+  float: left;
+  /* border: 0.1px solid #0f90a7; */
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+/* nav .dropdown {
+    display: inline-block;
+  }
+  
+  nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  } */
+
+/* Creates highlight hover effect for navbar */
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+
+/* nav .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  nav .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+
+.page-title {
+  text-align: center;
+  font-size: 80px;
+  font-family: "headerFont";
+  margin-top: 50px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  /* background-color: rgb(46, 182, 228); */
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: auto;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* images styling */
+
+.wrapped-image-right {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  width: 50%;
+  height: 50%;
+  float: right;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.wrapped-image-left {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  width: 50%;
+  height: 50%;
+  max-width: 700px;
+  float: left;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.wrapped-home-image {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 50%;
+  float: right;
+  border: 1px solid black;
+  border-radius: 8px;
+}
